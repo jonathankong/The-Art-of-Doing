@@ -57,10 +57,9 @@ def main():
     print(f'\nHere is what remains on your grocery list: \n{str(grocery_list)}')
 
     #Saving list
-    print('Saving list...')
-    with output_path.open(mode='w', newline='') as file:
-        wr = csv.writer(file, deduced_dialect)
-        wr.writerow(grocery_list)
-        # for item in grocery_list:
-        #     wr.writerow([item])
-    print('Complete')
+    # print('Saving list...')
+    # with output_path.open(mode='w', newline='') as file:
+    #     wr = csv.writer(file, deduced_dialect)
+    #     for item in grocery_list:
+    #         wr.writerow(item)
+    # print('Complete')
