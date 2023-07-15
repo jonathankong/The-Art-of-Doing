@@ -3,8 +3,8 @@ from pathlib import Path
 from datetime import datetime
 
 def main():
-    print('This project extends the given project with reading and writing CSV files')
-    print('=========================================================================\n')
+    print('This project extends the given project with reading and writing CSV files; loops and try except')
+    print('===============================================================================================\n')
     #destination path
     output_path = Path(f'{Path.cwd()}/project_7_extra_files/grocery_list').with_suffix('.csv')
     #creating directories while ignoring the file at the end of the path
